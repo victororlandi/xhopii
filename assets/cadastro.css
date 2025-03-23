@@ -77,20 +77,20 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     color:rgb(251, 86, 48);
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .formulario form input{
     padding: 10px;
     border-style: solid;
     border-color: rgb(245,245,245);
+    box-sizing: content-box;
     width: 200px;
     height: 10px;
-    
 }
 
 footer {
-    height: 250px;
+    height: 300px;
     width: 100vw;
     background-color: rgb(245,245,245);    
 }
