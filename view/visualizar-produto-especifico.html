@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="../assets/script.js"></script>
+    <title>Xhopii</title>
+</head>
+<body>
+    <header>
+        <section class="faixalogo">
+            <img src="../assets/img/logo.png" width="60px" height="50px">
+            <h1>Xhopii</h1>
+        </section>
+        <section class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Cadastro Cliente</a></li>
+                    <li><a href="#">Cadastro Funcionário</a></li>
+                    <li><a href="#">Cadastro Produto</a></li>
+                    <li><a href="#">Ver Clientes</a></li>
+                    <li><a href="#">Ver Funcionários</a></li>
+                    <li><a href="#">Ver Produtos</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section class="produto">
+        <section class="imagem">
+            <section class="imagem-secundaria">
+                <img src="../assets/img/produto1.png" onclick ="selecionarImgProduto(this)">
+                <img src="../assets/img/produto2.png" onclick ="selecionarImgProduto(this)">
+                <img src="../assets/img/produto3.png" onclick ="selecionarImgProduto(this)">
+                <img src="../assets/img/produto4.png" onclick ="selecionarImgProduto(this)">
+                <img src="../assets/img/produto5.png" onclick ="selecionarImgProduto(this)">
+            </section>
+            <section class="imagem-principal">
+                <img id = "imagem-principal" src="../assets/img/produto1.png">
+            </section>
+        </section>
+        <section class="escolha">
+            <section class="descricao-produto">
+                <h3>Camisa Desenvolvedor Front-End CSS</h3>
+                <h3 class="preco">R$56,90</h3>
+                <p>171 peças disponíveis</p>
+            </section>
+            <section class="selecao">
+                <nav class="selecao-modelo">
+                    <h6>Modelos:</h6>
+                    <ul title="Modelos">
+                        <li><a href="#">Preto</a></li>
+                        <li><a href="#">Azul</a></li>
+                        <li><a href="#">Verde</a></li>
+                        <li><a href="#">Cinza</a></li>
+                        <li><a href="#">Rosa</a></li>
+                    </ul>
+                </nav>
+                <nav class="selecao-tamanho">
+                    <h6>Tamanhos:</h6>
+                    <ul title="Tamanhos">
+                        <li><a href="#">P</a></li>
+                        <li><a href="#">M</a></li>
+                        <li><a href="#">G</a></li>
+                        <li><a href="#">GG</a></li>
+                    </ul>
+                </nav>
+                <h6>Tamanho Selecionado: P</h6>
+            </section>
+            <Section class="botao-comprar">
+                <p><a href="#">Comprar Agora</a></p>
+            </Section>
+        </section>
+    </section>
+</body>
+</html>
