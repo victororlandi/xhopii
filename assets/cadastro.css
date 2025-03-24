@@ -89,17 +89,13 @@ body{
 }
 
 footer {
-    height: 350px;
+    height: 400px;
     width: 100vw;
     background-color: rgb(245,245,245);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-}
-
-footer ul{
-    padding: 20px;
 }
 
 footer section{
@@ -109,10 +105,12 @@ footer section{
     justify-content: center;
     align-items: center;
 }
-footer ul li{
+
+footer section ul li{
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    color: rgb(195,195,195);
 }
 
 .icone-pagamento img{
