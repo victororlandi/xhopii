@@ -1,0 +1,195 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255,255,255);
+}
+
+.faixalogo .logo-texto{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.faixalogo{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(245,245,245);
+    color: rgb(251,86,48);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.faixalogo h3{
+    color: rgb(0,0,0);
+    font-weight: normal;
+    padding-left: 16px;
+}
+
+.faixalogo a{
+    text-decoration: none;
+    color: rgb(251,86,48);
+    padding: 45px;
+    font-size: small;
+}
+
+.faixalogo img{
+    padding: 5px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario form{
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-color: rgb(255,255,255);
+    border-style: solid;
+    border-width: 15px;
+    padding: 30px 50px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    margin: 130px;
+}
+
+.formulario form a{
+    text-decoration: none;
+}
+
+.botao-cadastro p a{
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    border-style:solid;
+    border-width:2px;
+    border-color: rgb(0,0,0);
+    font-size: small;
+    padding: 8px 140px;
+    background-color:rgb(251, 86, 48);
+}
+
+.formulario form h5{
+    color:rgb(0,0,0);
+    font-size: medium;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.formulario form input{
+    padding: 15px;
+    border-style: solid;
+    border-color: rgb(245,245,245);
+    width: 300px;
+    height: 5px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+footer .container{
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(245,245,245);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer .copyright{
+    height: 1vh;
+    width: 100vw;
+    background-color: rgb(245,245,245);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+}
+
+footer section{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    float: left;
+}
+
+footer section h5{
+    color: rgb(22,17,29);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+footer section ul li{
+    list-style: none;
+}
+
+footer section ul li a{
+    display: flex;
+    align-items: flex-start;
+    color: rgb(133,123,108);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.icone-pagamento{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.icone-pagamento img{
+    max-width: 15%;
+    height: auto;
+    padding: 3px;
+}
+
+.icone-rede{
+    display: block;
+    height: 200px;
+    width: 80px;
+}
+
+.icone-rede img{
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 5px;
+}
+
+.icone-rede figure{
+    display: flex;
+    align-items: center;
+    float: inline-end;
+    color: rgb(133,123,108);
+    
+}
+
+.icone-aplicativo{
+    display: block;
+    height: 200px;
+    width: 80px;
+}
+.icone-aplicativo img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
