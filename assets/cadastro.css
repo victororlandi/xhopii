@@ -225,9 +225,6 @@ footer section ul li a{
 .icone-rede img{
     max-width: 30%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
     padding: 5px;
 }
 
