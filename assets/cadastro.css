@@ -180,6 +180,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .container h5{
@@ -205,7 +206,7 @@ footer {
 }
 
 .atendimento, .sobre, .icone-pagamento, .icone-rede, .icone-aplicativo {
-    padding: 30px;
+    padding: 20px;
 }
 
 .icone-pagamento, .icone-rede, .icone-aplicativo {
@@ -218,9 +219,8 @@ footer {
 }
 
 .icone-pagamento #icons-pagamento img{
-    height: 20px;
-    width: auto;
-    padding: 2px;
+    width: 60px;
+    padding: 5px;
 }
 
 .icone-rede a{
