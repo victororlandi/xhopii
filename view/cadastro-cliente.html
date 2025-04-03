@@ -8,39 +8,50 @@
 <body>
     <header>
         <section class="faixalogo">
-                <img src="../assets/img/logo.png" width="60px" height="50px">
+            <section class="logo-texto">
+                <img src="../assets/img/logo.png">
                 <h1>Xhopii</h1>
+            </section>
+            <a href="#">Sair</a>
         </section>
-        <section class="menu">
-            <nav>
+            <nav class="menu">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Cadastro Cliente</a></li>
-                    <li><a href="#">Cadastro Funcionário</a></li>
-                    <li><a href="#">Cadastro Produto</a></li>
+                    <li><a href="../view/cadastro-cliente.html">Cadastro Cliente</a></li>
+                    <li><a href="../view/cadastro-funcionario.html">Cadastro Funcionário</a></li>
+                    <li><a href="../view/cadastro-produto.html">Cadastro Produto</a></li>
                     <li><a href="#">Ver Clientes</a></li>
                     <li><a href="#">Ver Funcionários</a></li>
-                    <li><a href="#">Ver Produtos</a></li>
+                    <li><a href="../view/visualizar-produtos.html">Ver Produtos</a></li>
                 </ul>
             </nav>
-        </section>
     </header>
     <section class="formulario">
+            <h2>Cadastrar Cliente</h2>
         <form>
-            <h5>Cadastrar Cliente</h5>
             <input type="text" placeholder="Nome">
             <input type="text" placeholder="Sobrenome">
-            <input type="number" placeholder="CPF">
+            <input type="text" placeholder="CPF">
             <input type="date">
-            <input type="number" placeholder="Telefone">
+            <input type="text" placeholder="Telefone">
             <input type="email" placeholder="E-mail">
             <input type="password" placeholder="Senha">
         </form>
+            <section class="selecionar-foto">
+                <h3>Selecionar foto de perfil:</h3>
+                <section class="content">
+                    <a href="#">Escolher Arquivo</a>
+                    <p>Nenhum arquivo selecionado</p>
+                </section>
+            </section>
+            <section class="botao-cadastro">
+                <a href="#">Cadastrar</a>
+            </section>
     </section>
     <footer>
         <section class="container">
             <section class="atendimento">
-                <h5>ATENDIMENTO AO CLIENTE</h5>
+                <h5>Atendimento ao Cliente</h5>
                 <ul>
                     <li><a href="#">Central de ajuda</a></li>
                     <li><a href="#">Como Comprar</a></li>
@@ -52,7 +63,7 @@
                 </ul>
             </section>
             <section class="sobre">
-                <h5>SOBRE A XHOPII</h5>
+                <h5>Sobre a Xhopii</h5>
                 <ul>
                     <li><a href="#">Sobre nós</a></li>
                     <li><a href="#">Políticas Xhopii</a></li>
@@ -65,46 +76,35 @@
                 </ul>
             </section>
             <section class="icone-pagamento">
-                <h5>PAGAMENTO</h5>
-                <img src="../assets/img/pix-icon.png">
-                <img src="../assets/img/boleto-icon.png">
-                <img src="../assets/img/american-express-icon1.png">
-                <img src="../assets/img/visa-icon.png">
-                <img src="../assets/img/mastercard-icon2.png">
-                <img src="../assets/img/hipercard-icon.png">
-                <img src="../assets/img/elo-icon.png">
+                <h5>Pagamento</h5>
+                    <section id="icons-pagamento">
+                    <img src="../assets/img/pix-icon.png">
+                    <img src="../assets/img/boleto-icon.png">
+                    <img src="../assets/img/american-express-icon.png">
+                    <img src="../assets/img/visa-icon.png">
+                    <img src="../assets/img/mastercard-icon2.png">
+                    <img src="../assets/img/hipercard-icon.png">
+                    <img src="../assets/img/elo-icon.png">
+                </section>
             </section>
             <section class="icone-rede">
-                <h5>SIGA-NOS</h5>
-                <figure>
-                    <img src="../assets/img/instagram-icon.png">
-                    <figcaption>Instagram</figcaption>
-                </figure>
-                <figure>
-                    <img src="../assets/img/twitter-icon.png">
-                    <figcaption>Twitter</figcaption>
-                </figure>
-                <figure>
-                    <img src="../assets/img/facebook-icon.png">
-                    <figcaption>Facebook</figcaption>
-                </figure>
-                <figure>
-                    <img src="../assets/img/youtube-icon.png">
-                    <figcaption>Youtube</figcaption>
-                </figure>
-                <figure>
-                    <img src="../assets/img/linkedin-icon.png">
-                    <figcaption>LinkedIn</figcaption>
-                </figure>
+                <h5>Siga-nos</h5>
+                    <a href="#"><img src="../assets/img/instagram-icon.png">Instagram</a>
+                    <a href="#"><img src="../assets/img/twitter-icon.png">Twitter</a>
+                    <a href="#"><img src="../assets/img/facebook-icon.png">Facebook</a>
+                    <a href="#"><img src="../assets/img/youtube-icon.png">Youtube</a>
+                    <a href="Linkedin"><img src="../assets/img/linkedin-icon.png">Linkedin</a>
+                    
             </section>
             <section class="icone-aplicativo">
-                <h5>ATENDIMENTO AO CLIENTE</h5>
+                <h5>Atendimento ao Cliente</h5>
                 <img src="../assets/img/qrcode.png">
                 <img src="../assets/img/google-play.png">
                 <img src="../assets/img/app-store.png">
             </section>
         </section>
         <section class="copyright">
+            <hr>
             <p>© 2023 Xhopii. Todos os direitos acadêmicos reservados.</p>
         </section>
     </footer>
