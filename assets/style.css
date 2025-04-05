@@ -87,73 +87,55 @@
     height: 400px;
 }
 
-.produto .escolha {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.produto-detalhes{
+    margin-top: 50px;
+    margin-right: 10%;
+    height: 600px;
+    width: 40%;
+    float: right;
 }
 
-.produto .descricao-produto h3 {
-    padding: 10px;
-    font-style: bold;
+.produto-detalhes p{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.produto .descricao-produto #preco {
-    color: rgb(252,116,48);
-}
-
-.produto .descricao-produto p {
-    padding: 10px;
-}
-
-.produto .modelos {
-    padding: 10px;
-}
-
-.produto .modelos ul{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-.produto .modelos ul li{
-    list-style: none;
-}
-
-.produto .modelos ul li a{
-    margin: 5px;
-    font-size: 10px;
-    color: rgb(0,0,0);
-    text-align: center;
-    text-decoration: none;
-    border-style: solid;
-    border-width: thin;
-    border-color: rgb(153, 153, 151);
-    padding: 10px;
-    display: block;
-}
-
-.produto .modelos ul li a:hover{
-    color:rgb(251,86,48);
-    border-style: solid;
-    border-width: thin;
-    border-color:rgb(251,86,48);
-}
-
-.botao-comprar a {
-    font-size: 10px;
-    margin: 10px;
-    color: rgb(255,255,255);
-    width: 90px;
+.produto-detalhes .botao{
     height: 40px;
-    background-color: rgb(252,116,48);
-    display:flex;
+    cursor: pointer;
+    background-color: rgba(255,255,255);
+    color: rgba(0,0,0,.8);
+    border: 1px solid rgba(0,0,0,.09);
+    margin: 10px 8px 8px 10px;
+    padding: 0.25rem 0.75rem;
     justify-content: center;
-    align-items: center;
-    text-decoration: none;
+}
+
+.produto-detalhes .botao:hover{
+    color: rgb(251,86,48);
+    border: 1px solid rgb(251,86,48);
+}
+
+.produto-detalhes #botaoComprar{
+    height: 60px;
+    cursor: pointer;
+    background-color: rgb(251,86,48);
+    color: rgb(255,255,255);
+    border: 1px solid rgb(251,86,48);
+    margin: 10px 8px 8px 10px;
+    padding: 0.25rem 0.75rem;
+    justify-content: center;
+}
+
+.produto-detalhes #botaoComprar:hover{
+    opacity: 0.9;
+}
+
+.produto-detalhes #precoProduto{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.875rem;
+    color: rgb(251,86,48);
 }
 
 footer {
